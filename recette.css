@@ -6,6 +6,7 @@
 body {
     background-color: #8BA1BB;
     font-family: Arial;
+    border: 1px solid red;
     
 }
 p.categorie{
@@ -17,24 +18,28 @@ p.categorie{
     margin-bottom: 0;
     font-weight: bold;
     font-size: 16px;
+    border: 1px solid yellow;
 }
 div.contenu{
     background-color:white;
     margin: 0px 10% 800px 10%;
     padding: 30px;
-    /*min-width: 350px;*/
+    min-width: 350px;
     box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0, 1);
+    border: 2px solid blue;
 }
 h1{
     text-align: center;
     margin-bottom: 12px;
     margin-top: 10px;
+    border: 1px solid black;
 }
 p.description{
     text-align: center;
     max-width: 400px;
     display: inline-block;
     font-size: 14px;
+    border: 1px solid black;
 
 }
 .centre{
@@ -45,6 +50,7 @@ p.description{
 div.categorie{
     margin-bottom: -18px;
     margin-top: 60px;
+    border: 1px solid black;
 }
 div.separateur{
     width: 100px;
@@ -52,10 +58,12 @@ div.separateur{
     background-color: #000000;
     margin-left: auto;
     margin-right: auto;
+    border: 1px solid red;
 }
 div.info{
 
     position:relative;
+    border: 1px solid red;
 }
 table.info{
 
@@ -65,6 +73,7 @@ table.info{
     color: white; 
     background-color: #6c829dc0; 
     height: 80px;
+    border: 1px solid red;
 }
 table.info td{
 
@@ -83,11 +92,12 @@ img.info{
     object-fit: cover;
     min-height: 200px;
     background-color: lightgray;
-
+    border: 3px solid yellow
 }
 div.colonne{
     width: 45%;
     margin-top: 20px;
+    border: 3px solid yellow
 }
 div.colonne h2{
     text-align: center;
@@ -138,12 +148,4 @@ table.preparation td.preparation_etape{
 }
 table.preparation tr{
     height: 40px;
-}
-/*Style pour ordinateur*/
-@media only screen and (min-width: 768px) {
-    div.contenu{
-        
-        min-width: 350px;
-    }
-       
 }
